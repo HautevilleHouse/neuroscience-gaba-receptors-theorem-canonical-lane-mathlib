@@ -1,0 +1,19 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.NeuroscienceGabaReceptorsTheoremCanonicalLaneLean.GabaReceptorSignaling
+import HautevilleHouse.NeuroscienceGabaReceptorsTheoremCanonicalLaneLean.HodgkinHuxleyDynamics
+import HautevilleHouse.NeuroscienceGabaReceptorsTheoremCanonicalLaneLean.SynapticPlasticityHebbian
+import HautevilleHouse.NeuroscienceGabaReceptorsTheoremCanonicalLaneLean.NeuralFieldTheory
+import HautevilleHouse.NeuroscienceGabaReceptorsTheoremCanonicalLaneLean.ConnectomicsCircuit
+import HautevilleHouse.NeuroscienceGabaReceptorsTheoremCanonicalLaneLean.DisinhibitionGate
+
+namespace HautevilleHouse
+namespace NeuroscienceGabaReceptorsTheoremCanonicalLaneLean
+
+def ConstrainedNeuroscienceClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_neuroscience_endgame (A : AdmissibleClass) : ConstrainedNeuroscienceClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end NeuroscienceGabaReceptorsTheoremCanonicalLaneLean
+end HautevilleHouse
